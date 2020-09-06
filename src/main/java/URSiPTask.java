@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -27,7 +28,8 @@ import java.util.List;
 public class URSiPTask {
 
     public static String geneNum(List<Integer> numbers) {
-        final List<Integer> listOfSkipMinNumbers = new LinkedList<>();
+
+        final List<Integer> listOfSkipMinNumbers = new ArrayList<>();
         Integer maxElementOfList = numbers.stream()
                 .distinct()
                 .sorted()

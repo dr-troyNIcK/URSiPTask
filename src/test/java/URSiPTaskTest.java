@@ -7,7 +7,7 @@ import java.util.*;
 
 public class URSiPTaskTest extends Assert {
 
-    private final Map<String, List<Integer>> testResources = new LinkedHashMap<>();
+    private final Map<String, List<Integer>> testResources = new HashMap<>();
 
     @Before
     public void setUp() throws Exception {
